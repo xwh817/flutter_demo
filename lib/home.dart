@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'hello/hello.dart';
 
 class Home extends StatelessWidget {
   @override
@@ -8,21 +9,8 @@ class Home extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HelloPage(),
+      home: Hello(),
     );
   }
 
-}
-
-
-class HelloPage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return new Scaffold(
-      appBar: new AppBar(
-        title: new Text('Hello Pager'),
-      ),
-      body: Center(child: Text('Hello Flutter')),
-    );
-  }
 }
