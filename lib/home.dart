@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_demo/provider/provider_page.dart';
 import 'hello/hello.dart';
 
 class Home extends StatelessWidget {
@@ -9,7 +10,7 @@ class Home extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Hello(),
+      home: ProviderPage(),
     );
   }
 
